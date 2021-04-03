@@ -4,13 +4,13 @@ module.exports = {
   theme: {
     extend: {
       colors: theme => ({
-        'background': {
+        'backgroundColor': {
           default: "#F2F2F2"
         },
-        'headerText': {
+        'headerTextColor': {
           default: "#072942"
         },
-        'text': {
+        'textColor': {
           default: "#052033",
           dark: "#F2F2F2"
         }
