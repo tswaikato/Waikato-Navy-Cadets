@@ -7,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavigationComponent implements OnInit {
 
-  constructor() { }
+  public home = false;
+  public join = false;
+  public contact = false;
+
+  constructor() {
+    this.home = true;
+  }
 
   ngOnInit(): void {
   }

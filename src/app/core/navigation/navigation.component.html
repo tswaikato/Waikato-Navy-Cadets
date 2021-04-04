@@ -5,13 +5,13 @@
   <h1 class="text-center text-6xl font-bold text-headerTextColor-default pb-3">Waikato Navy Cadets</h1>
   <div class="flex justify-center text-2xl text-textColor-default">
     <div class="text-gray-700 text-center m-2">
-      <a>Home</a>
+      <a [class.font-bold]="home === true">Home</a>
     </div>
     <div class="text-gray-700 text-center m-2">
-      <a>Join</a>
+      <a [class.font-bold]="join === true">Join</a>
     </div>
     <div class="text-gray-700 text-center m-2">
-      <a>Contact Us</a>
+      <a [class.font-bold]="contact === true">Contact Us</a>
     </div>
   </div>
 </div>
