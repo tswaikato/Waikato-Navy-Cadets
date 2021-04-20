@@ -22,4 +22,10 @@ describe('NavigationComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should contain header', () => {
+    const expectedTitle = 'Waikato Navy Cadets';
+    const title = fixture.nativeElement.querySelector('#tswaikato_title');
+    expect(title.textContent).toBe(expectedTitle);
+  });
 });

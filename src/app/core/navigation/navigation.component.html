@@ -2,10 +2,10 @@
   <img src="assets/images/navigation/header.png" class="object-top object-none h-full min-w-full" alt="Waikato navy cadet group photo">
 </div>
 <div class="container mx-auto">
-  <h1 class="text-center text-6xl font-bold text-headerTextColor-default pb-3">Waikato Navy Cadets</h1>
-  <div class="flex justify-center text-2xl text-textColor-default">
+  <h1 id="tswaikato_title" class="text-center text-6xl font-bold text-headerTextColor-default pb-3">Waikato Navy Cadets</h1>
+  <nav class="flex justify-center text-2xl text-textColor-default">
     <div class="text-gray-700 text-center m-2">
-      <a [class.font-bold]="home === true">Home</a>
+      <a [class.font-bold]="home === true" [href]="home">Home</a>
     </div>
     <div class="text-gray-700 text-center m-2">
       <a [class.font-bold]="join === true">Join</a>
@@ -13,5 +13,5 @@
     <div class="text-gray-700 text-center m-2">
       <a [class.font-bold]="contact === true">Contact Us</a>
     </div>
-  </div>
+  </nav>
 </div>

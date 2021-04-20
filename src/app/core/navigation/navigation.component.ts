@@ -12,11 +12,7 @@ export class NavigationComponent implements OnInit {
   public join = false;
   public contact = false;
 
-  constructor(private router: Router) {
-    switch (this.router.url){
-      case '': this.home = true; break;
-      case '/join': this.join = true; break;
-    }
+  constructor() {
   }
 
   ngOnInit(): void {
