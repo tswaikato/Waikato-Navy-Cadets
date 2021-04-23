@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      backgroundImage: theme => ({
+        'largeheader': "url('src/assets/images/navigation/header.png')"
+      }),
       colors: theme => ({
         'backgroundColor': {
           default: "#F2F2F2"
