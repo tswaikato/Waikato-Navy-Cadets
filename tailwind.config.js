@@ -6,6 +6,10 @@ module.exports = {
       backgroundImage: theme => ({
         'headerImage': "url('src/assets/images/navigation/header.png')"
       }),
+      height: theme => ({
+        contactus_default: '1540px',
+        contactus_md: '1670px'
+      }),
       colors: theme => ({
         'backgroundColor': {
           default: "#F2F2F2"
