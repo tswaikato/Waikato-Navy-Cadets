@@ -3,14 +3,14 @@
 <div class="container mx-auto">
   <h1 id="tswaikato_title" class="text-center text-6xl font-bold text-headerTextColor-default pb-3">Waikato Navy Cadets</h1>
   <nav class="flex justify-center text-2xl text-textColor-default">
-    <div class="text-gray-700 text-center m-2">
-      <a [class.font-bold]="home === true" routerLink="">Home</a>
+    <div class="text-gray-700 text-center m-2 hover:underline">
+      <a [ngClass]="getBoldClass('/')" routerLink="/">Home</a>
     </div>
-    <div class="text-gray-700 text-center m-2">
-      <a [class.font-bold]="join === true" routerLink="join">Join</a>
+    <div class="text-gray-700 text-center m-2 hover:underline">
+      <a [ngClass]="getBoldClass('/join')" routerLink="/join">Join</a>
     </div>
-    <div class="text-gray-700 text-center m-2">
-      <a [class.font-bold]="contact === true">Contact Us</a>
+    <div class="text-gray-700 text-center m-2 hover:underline">
+      <a [ngClass]="getBoldClass('/contact')" routerLink="/contact">Contact Us</a>
     </div>
   </nav>
 </div>

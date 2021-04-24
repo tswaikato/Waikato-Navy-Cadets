@@ -7,6 +7,7 @@ import { NavigationComponent } from './core/navigation/navigation.component';
 import { FooterComponent } from './core/footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { JoinComponent } from './join/join.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { JoinComponent } from './join/join.component';
     NavigationComponent,
     FooterComponent,
     HomeComponent,
-    JoinComponent
+    JoinComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
