@@ -26,7 +26,11 @@ module.exports = {
         'textColor': {
           default: "#052033",
           dark: "#F2F2F2"
-        }
+        },
+        'gradientBlueDark': "#1B3242",
+        'gradientBlueMid': "#25455C",
+        'gradientBlueLight': "#437EA8",
+        'hoverColor': "#5C0E08"
       })
     },
   },
