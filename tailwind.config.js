@@ -15,10 +15,10 @@ module.exports = {
           default: "#F2F2F2"
         },
         'headerTextColor': {
-          default: "#072942"
+          default: "#003E7D"
         },
         'headerColor': {
-          default: "#25455C"
+          default: "#003E7D"
         },
         'footerColor': {
           default: "#25455C"
@@ -27,9 +27,9 @@ module.exports = {
           default: "#052033",
           dark: "#F2F2F2"
         },
-        'gradientBlueDark': "#1B3242",
-        'gradientBlueMid': "#25455C",
-        'gradientBlueLight': "#437EA8",
+        'gradientBlueDark': "#003E7D",
+        'gradientBlueMid': "#00458A",
+        'gradientBlueLight': "#0065C9",
         'hoverColor': "#5C0E08"
       })
     },
