@@ -9,6 +9,10 @@ import { HomeComponent } from './home/home.component';
 import { JoinComponent } from './join/join.component';
 import { ContactComponent } from './contact/contact.component';
 import { InfoBoxComponent } from './join/info-box/info-box.component';
+import { InfoBoxImageComponent } from './join/info-box/info-box-image/info-box-image.component';
+import { InfoBoxHeaderComponent } from './join/info-box/info-box-header/info-box-header.component';
+import { InfoBoxTextComponent } from './join/info-box/info-box-text/info-box-text.component';
+import { InfoBoxSubtextComponent } from './join/info-box/info-box-subtext/info-box-subtext.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { InfoBoxComponent } from './join/info-box/info-box.component';
     HomeComponent,
     JoinComponent,
     ContactComponent,
-    InfoBoxComponent
+    InfoBoxComponent,
+    InfoBoxImageComponent,
+    InfoBoxHeaderComponent,
+    InfoBoxTextComponent,
+    InfoBoxSubtextComponent
   ],
   imports: [
     BrowserModule,
