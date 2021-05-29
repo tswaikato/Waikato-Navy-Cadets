@@ -54,7 +54,7 @@
                 {
                   "type": "initial",
                   "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumError": "4mb"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -122,6 +122,13 @@
             "production": {
               "devServerTarget": "Waikato-Navy-Cadets:serve:production"
             }
+          }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://tswaikato.nz",
+            "cname": "tswaikato.nz"
           }
         }
       }
