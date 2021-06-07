@@ -13,6 +13,7 @@ import { InfoBoxImageComponent } from './join/info-box/info-box-image/info-box-i
 import { InfoBoxHeaderComponent } from './join/info-box/info-box-header/info-box-header.component';
 import { InfoBoxTextComponent } from './join/info-box/info-box-text/info-box-text.component';
 import { InfoBoxSubtextComponent } from './join/info-box/info-box-subtext/info-box-subtext.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { InfoBoxSubtextComponent } from './join/info-box/info-box-subtext/info-b
     InfoBoxImageComponent,
     InfoBoxHeaderComponent,
     InfoBoxTextComponent,
-    InfoBoxSubtextComponent
+    InfoBoxSubtextComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
